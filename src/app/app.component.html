@@ -1,0 +1,8 @@
+<div class="container">
+  <form class="demo-form">
+    <timepicker color="primary" [(userTime)]="exportTime" (userTimeChange)="displayTime($event)"></timepicker>
+        <span>
+          {{ selectedTime }}
+        </span>
+  </form>
+</div>
